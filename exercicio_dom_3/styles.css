@@ -1,0 +1,208 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4ff;
+    padding: 20px;
+    color: #333;
+}
+
+
+h1 {
+    text-align: center;
+    color: royalblue;
+    margin-bottom: 30px;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+}
+
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+#adicionarBtn {
+    background-color: royalblue;
+    color: white;
+}
+
+#adicionarBtn:hover {
+    background-color: #2b55a2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #e0e7ff;
+    color: #333;
+}
+
+button.concluirBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+button.concluirBtn:hover {
+    background-color: #218838;
+}
+
+button.excluirBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.excluirBtn:hover {
+    background-color: #b02a37;
+}
+
+button.reabrirBtn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+button.reabrirBtn:hover {
+    background-color: #e0a800;
+}
+
+
+button.editarBtn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button.editarBtn:hover {
+    background-color: #138496;
+}
+
+td:nth-child(6) {
+    font-weight: bold;
+}
+
+td:contains("Concluído") {
+    color: green;
+}
+
+td:contains("Em processo") {
+    color: orange;
+}
+
+td:contains("Não iniciado") {
+    color: red;
+}
+
+button.icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 4px;
+    padding: 6px;
+    border-radius: 50%;
+    transition: 0.2s ease;
+}
+
+button.icon i {
+    pointer-events: none;
+}
+
+
+button.concluirBtn { color: #28a745; }
+button.concluirBtn:hover { background-color: #e6f5ec; }
+
+button.editarBtn { color: #17a2b8; }
+button.editarBtn:hover { background-color: #e0f7fa; }
+
+button.progressoBtn { color: #6f42c1; }
+button.progressoBtn:hover { background-color: #f2e6ff; }
+
+button.excluirBtn { color: #dc3545; }
+button.excluirBtn:hover { background-color: #fce4e6; }
+
+button.reabrirBtn { color: #ff6607; }
+button.reabrirBtn:hover { background-color: #fff7e0; }
+
+#ordenarBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#ordenarBtn:hover {
+    background-color: #23272b;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.search-container {
+    position: relative;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-container input:focus {
+    border-color: royalblue;
+    box-shadow: 0 0 5px rgba(65, 105, 225, 0.4);
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 16px;
+    pointer-events: none;
+}

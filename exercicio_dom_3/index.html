@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio DOM 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <h1>Gerenciamento de Tarefas</h1>
+
+    <div class="input-container">
+        <label for="descricaoTarefa">Descrição da tarefa:</label>
+        <input type="text" id="descricaoTarefa" placeholder="">
+        <button id="adicionarBtn">Adicionar Tarefa</button>
+        <button id="ordenarBtn">Ordenar Tarefas</button>
+    </div>
+
+    <div class="search-container">
+    <i class="fas fa-search search-icon"></i>
+    <input type="text" id="pesquisaTarefa" placeholder="Pesquisar tarefa">
+    </div>
+
+
+    <table id="tabelaTarefas">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Descrição</th>
+                <th>Início</th>
+                <th>Conclusão</th>
+                <th>Progresso (%)</th>
+                <th>Status</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+ <script src="scripts.js"></script>
+</body>
+</html>
